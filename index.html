@@ -28,7 +28,7 @@
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
 
-        fetch('users.json')
+        fetch('/users.json')
             .then(response => response.json())
             .then(users => {
                 var user = users.find(u => u.username === username && u.password === password);

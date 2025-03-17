@@ -3,37 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Notes</title>
-    <style>
-       body {
-            background-image: url('background.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            min-height: 100vh;
-}
-
-    </style>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
-
+    <title style="color: powderblue;">Login To Access Notes</title>
 </head>
 <body>
-    <h1 style="color: rgb(126, 39, 226);">Class Notes</h1>
-    <p style="color: powderblue;">Select a subject to see the notes for it:</p>
-    <ul style="color: powderblue;">
-        <li><a href="Biology/" style="color: powderblue;">Biology</a></li>
-        <li><a href="Chemistry/" style="color: powderblue;">Chemistry</a></li>
-        <li><a href="/Study-Notes/Physics/" style="color: powderblue;">Physics</a></li>
-        <li><a href="/Study-Notes/English/" style="color: powderblue;">English</a></li>
-        <li><a href="/Study-Notes/Methods/" style="color: powderblue;">Methods</a></li>
-        <li><a href="/Study-Notes/Specialist/" style="color: powderblue;">Specialist</a></li>
-        
-    </ul>
-    <p style="color: powderblue;"><b style="color: rgb(2, 211, 148);">Note:</b> This project is still very much a work in progress. It is being actively worked on.</p>
-    <p style="color: powderblue;">If you notice any bugs or have any suggestions for improvement, please click <a href="feedback.html">here.</a></p>
-    <br>
-    <p style="color: powderblue;">If the math doesn't load properly in some notes, clear our your browser cache and it will go away.</p>
-    <p  style="color: powderblue;"> Here is a guide on how to do that very easily. <a href="/Study-Notes/Cache_Clear/"  style="color: rgb(79, 228, 129);">Clear Browser Cache</a></p>
-    <br>
+    <div id="loginContainer" style="color: powderblue;">
+        <h2 style="color: powderblue;">Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script>
+    // Check if user is already logged in
+    if (localStorage.getItem('loggedIn') === 'true') {
+        window.location.href = 'home.html';
+    }
+
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        fetch('users.json')
+            .then(response => response.json())
+            .then(users => {
+                var user = users.find(u => u.username === username && u.password === password);
+                if (user) {
+                    localStorage.setItem('loggedIn', 'true');
+                    alert('Login successful!');
+                    window.location.href = 'home.html';
+                } else {
+                    alert('Invalid username or password');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+    });
+
+    // Function to log out (you can call this from your home page)
+    function logout() {
+        localStorage.removeItem('loggedIn');
+        window.location.href = 'index.html';
+    }
+    </script>
+
+    <p style="color: powderblue;">Don't have a login? Sign up here: <a style="color: powderblue;" href="Study-Notes/signup.html">Signup</a></p>
 </body>
 </html>

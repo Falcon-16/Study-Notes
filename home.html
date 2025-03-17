@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Notes</title>
-    <button onclick="logout()">Logout</button>
+    <button onclick="loadScript('logout.js')">Logout</button>
+
+    <script>
+        function loadScript(src) {
+        var script = document.createElement('script');
+        script.src = src;
+        document.body.appendChild(script);
+}
+</script>
+
     <style>
        body {
             background-image: url('background.png');

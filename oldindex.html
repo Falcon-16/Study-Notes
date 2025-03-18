@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Notes</title>
+    <button onclick="logout()">Logout</button>
+
+    <script src="logout.js"></script>
+    <script>
+    // You can keep this function if you need it elsewhere
+        function loadScript(src) {
+            var script = document.createElement('script');
+             script.src = src;
+            document.body.appendChild(script);
+    }
+</script>
+
+
+    <style>
+       body {
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+}
+
+    </style>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
+
+</head>
+<body>
+    <h1 style="color: rgb(126, 39, 226);">Class Notes</h1>
+    <p style="color: powderblue;">Select a subject to see the notes for it:</p>
+    <ul style="color: powderblue;">
+        <li><a href="Biology/" style="color: powderblue;">Biology</a></li>
+        <li><a href="Chemistry/" style="color: powderblue;">Chemistry</a></li>
+        <li><a href="/Study-Notes/Physics/" style="color: powderblue;">Physics</a></li>
+        <li><a href="/Study-Notes/English/" style="color: powderblue;">English</a></li>
+        <li><a href="/Study-Notes/Methods/" style="color: powderblue;">Methods</a></li>
+        <li><a href="/Study-Notes/Specialist/" style="color: powderblue;">Specialist</a></li>
+        
+    </ul>
+    <p style="color: powderblue;"><b style="color: rgb(2, 211, 148);">Note:</b> This project is still very much a work in progress. It is being actively worked on.</p>
+    <p style="color: powderblue;">If you notice any bugs or have any suggestions for improvement, please click <a href="feedback.html">here.</a></p>
+    <br>
+    <p style="color: powderblue;">If the math doesn't load properly in some notes, clear our your browser cache and it will go away.</p>
+    <p  style="color: powderblue;"> Here is a guide on how to do that very easily. <a href="/Study-Notes/Cache_Clear/"  style="color: rgb(79, 228, 129);">Clear Browser Cache</a></p>
+    <br>
+</body>
+</html>

@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Study Notes</title>
-    <button onclick="logout()">Logout</button>
+    <button id="logoutButton">Logout</button>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="/listener.js"></script>
 
-    <script src="logout.js"></script>
-    <script>
-    // You can keep this function if you need it elsewhere
-        function loadScript(src) {
-            var script = document.createElement('script');
-             script.src = src;
-            document.body.appendChild(script);
-    }
+    <script src="/logout.js"></script>
 </script>
 
 

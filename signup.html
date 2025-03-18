@@ -2,52 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <h1>Sign Up To Access Notes</h1>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
 </head>
+
 <body>
-    <h2>Sign Up</h2>
     <form id="signupForm">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
-        <input type="submit" value="Sign Up">
-    </form>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+      
 
-    <script>
-    document.getElementById('signupForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        var email = document.getElementById('email').value;
-        var password = document.getElementById('password').value;
-
-        // Read existing users from users.json
-        fetch('users.json')
-            .then(response => response.json())
-            .then(users => {
-                // Add new user
-                users.push({ email: email, password: password });
-
-                // Write updated users back to file
-                return fetch('users.json', {
-                    method: 'PUT',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(users)
-                });
-            })
-            .then(() => {
-                alert('Signup successful!');
-                // Optionally redirect to login page
-                // window.location.href = 'login.html';
-                window.location.href = 'index.html';
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('Signup failed. Please try again.');
-            });
-    });
-    </script>
 </body>
 </html>

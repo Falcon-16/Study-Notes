@@ -16,7 +16,7 @@ const firebaseConfig = {
       console.log('User is signed in:', user.email);
     } else {
       // No user is signed in, redirect to login page
-      window.location.href = '../index.html';
+      window.location.href = 'index.html';
     }
   });
   

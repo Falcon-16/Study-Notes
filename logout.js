@@ -1,3 +1,4 @@
+// Initialize Firebase (replace with your actual config)
 const firebaseConfig = {
   apiKey: "AIzaSyB9-tIR3vEwjXQHtELGWhGRxOuS9xbZTvA",
   authDomain: "github-pages-ec8ac.firebaseapp.com",
@@ -10,13 +11,12 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 function logout() {
-    firebase.auth().signOut().then(() => {
+  firebase.auth().signOut().then(() => {
       console.log('User signed out successfully');
       window.location.href = 'login.html'; // Redirect to login page
-    }).catch((error) => {
+  }).catch((error) => {
       console.error('Logout error:', error);
-    });
-  }
-  
-  document.getElementById('logoutButton').addEventListener('click', logout);
-  
+  });
+}
+
+document.getElementById('logoutButton').addEventListener('click', logout);

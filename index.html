@@ -30,12 +30,9 @@
         };
 
         // Initialize Firebase
-        import { initializeApp } from 'firebase/app';
-        import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+        firebase.initializeApp(firebaseConfig);
 
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
-
+        const auth = firebase.auth();
 
         // Handle Login
         document.getElementById('loginForm').addEventListener('submit', function(e) {

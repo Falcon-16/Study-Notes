@@ -33,6 +33,15 @@
         firebase.initializeApp(firebaseConfig);
 
         const auth = firebase.auth();
+        firebase.auth().getRedirectResult().then((result) => {
+    if (result.user) {
+        // User is signed in.
+        console.log('User signed in:', result.user);
+        window.location.href = 'home.html';
+    }
+}).catch((error) => {
+    console.error('Redirect error:', error);
+});
 
         // Handle Login
         document.getElementById('loginForm').addEventListener('submit', function(e) {

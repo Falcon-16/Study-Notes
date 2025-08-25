@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falcon Academy</title>
+    <button id="logoutButton">Logout</button>
+    
+    <style>
+        /* Remove all default margins and padding */
+        body, html {
+            background-color: #0b1036;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* Make the iframe fill the entire viewport */
+        iframe {
+            display: block; /* Ensures no inline spacing */
+            width: 100vw;   /* Full width of the viewport */
+            height: 100vh;  /* Full height of the viewport */
+            border: none;   /* Remove any borders */
+        }
+    </style>
+</head>
+<body>
+    <p style="color: white;"><a href="home.html" style="color: white;">Back to Home</a></p>
+    <iframe
+  src="https://falconstudynotes.bettermode.io"
+  frameBorder="0"
+  width="100%">
+</iframe>
+    <p style="color: white;"><a href="../" style="color: white;">Back to Home</a></p>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="../listener.js"></script>
+    <script src="../logout.js"></script>
+</body>
+</html>

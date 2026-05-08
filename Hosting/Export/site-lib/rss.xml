@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Obsidian]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Obsidian</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 08 May 2026 05:40:32 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 08 May 2026 05:40:18 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Linear Motion]]></title><description><![CDATA[This page was last modified on April 24, 2026 at 9:08 PM.A Force is a push or pull that exerts something on an object.
+Force has both Magnitude and Direction. It is a vector, just like Velocity and Acceleration &amp; Displacement are also vectors.
+Scalars have only magnitude, and no direction. They include speed and distance.The difference between Distance and Displacement is that distance is just how far has been travelled.
+The displacement is the overall change in position.
+<img alt="Distance vs. Displacement" src="physics/drawings/distance-vs.-displacement.png" target="_self">To convert from to , look at each part on its own. To convert km to m, multiply by 1000. To convert hours to seconds, multiply by 60x60, 3600. However, the unit is divided by hours and seconds, so the conversion is multiply by 1000 and divide by 3600.
+The conversion factor becomes, from , to <br>
+<img alt="km/h to m/s" src="physics/drawings/km_h-to-m_s.png" target="_self">Negative displacements usually mean down, or backwards. Or south or west.
+To calculate the displacement linear-ly, add up the individual distances.
+For example, someone walks 14m east and then walks 2m west and then walks 3m east.
+where: final velocity initial velocity
+Acceleration is the rate of change of velocity.
+Often, the average velocity or acceleration is used, as during the span of a thing moving, sometimes it moves slightly differently. For example, a sprinter will take time to get up to speed and then reach top speed and then slow down from there.
+Therefore, often the average value is used instead. This is also the gradient over an area.
+To calculate the average over a certain span:<br>
+<img alt="Calculating Averages" src="physics/drawings/averages.png" target="_self">
+use the formula:
+There are 5 important motion formulas, used when acceleration is constant.
+Where: final velocity initial velocity acceleration time displacement An object continues to be at rest or move with a constant velocity unless acted on by a force. The acceleration of an object in direct proportion to a force applied to it and inversely proportional to its mass.
+where: mass(kg) acceleration() To every action, there is an equal and opposite reaction.
+Pully and cart system
+A cart weighing 1.5kg is being pulled by a hanging mass that weighs 2.5kg. Calculate the acceleration of the cart.<br>
+<img alt="Calculating Cart Acceleration" height="324" src="physics/drawings/motion-cart.svg" target="_self" style="width: 271px; max-width: 100%;"> The important thing to note here is that to calculate the acceleration of the cart, you use the force on the cart, divided by the mass of the whole system, as the whole system has to be moved, not just the cart.The steps are:
+Calculate the force exerted by the hanging mass ()
+Calculate the acceleration from the force on the total mass
+Momentum was described by Albert Einstein as:
+"Momentum is mass in motion"
+And it is a great way to understand momentum. It is designated the letter and is calculated by:
+The SI unit for momentum is or
+The Law of Conservation of Momentum states that "the change in momentum for any system must be zero".
+Impulse is the change in momentum, represented by or , or
+It has the units .
+The momentum of a car is transferred to a wall during a crash. This generates an equal and opposite force on the car. The faster the collision occurs, the more force is exerted. The longer the collision occurs, the smaller the force is. Therefore, to survive a car crash, crumple zones slow down the collision time, increasing survival rates.Impulse is the area under the force-time graph.Work done can be defined as the product of force causing the displacement of an object, and has the unit of Joules. A force of 1 Newton applied over 1 metre does one joule of work.<br>
+<a href=".?query=tag:WIP" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#WIP">#WIP</a> Kinetic energy is the energy that a body posses due to motion.
+It is calculated by:
+where: mass(kg) velocity(m/s)
+This is energy stored by a body due to its position in a gravitational field, and is represented by:
+where: mass(kg) gravitational acceleration(9.8)(m/s/s) height(m)
+The law of conservation of energy states that 'Energy can neither be created nor destroyed'. Rather, it is converted between different forms. Often it is 'lost' because it bleeds away energy as it turns into heat or sound.The percentage of energy that is effectively transformed by a device is known as the 'efficiency' of the device.
+]]></description><link>physics/linear-motion.html</link><guid isPermaLink="false">Physics/Linear Motion.md</guid><pubDate>Fri, 24 Apr 2026 11:08:20 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Physics]]></title><description><![CDATA[<a href=".?query=tag:CoreNode" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#CoreNode">#CoreNode</a><br>
+<a data-tooltip-position="top" aria-label="Physics/Unit 1/Heat Processes" data-href="Physics/Unit 1/Heat Processes" href="physics/unit-1/heat-processes.html" class="internal-link" target="_self" rel="noopener nofollow">Heat Processes</a><br>
+<a data-href="Electricity" href="physics/unit-1/electricity.html" class="internal-link" target="_self" rel="noopener nofollow">Electricity</a><br>
+<a data-href="Uncertainty &amp; Error" href="physics/uncertainty-&amp;-error.html" class="internal-link" target="_self" rel="noopener nofollow">Uncertainty &amp; Error</a><br>
+<a data-href="Nuclear Physics" href="physics/unit-1/nuclear-physics.html" class="internal-link" target="_self" rel="noopener nofollow">Nuclear Physics</a><br>
+<a data-href="Linear Motion" href="physics/linear-motion.html" class="internal-link" target="_self" rel="noopener nofollow">Linear Motion</a><br>
+<a data-href="Gravity &amp; Electromagnetism" href="physics/gravity-&amp;-electromagnetism.html" class="internal-link" target="_self" rel="noopener nofollow">Gravity &amp; Electromagnetism</a><br>
+<a data-href="School" href="school.html" class="internal-link" target="_self" rel="noopener nofollow">School</a><br>FolderContains 0 folders, 8 notes..spaceFolderContains 4 folders, 15 notes.AssessmentFolderContains 0 folders, 10 notes.DocumentsFolderContains 1 folders, 64 notes.DrawingsFolderContains 1 folders, 10 notes.HomeworkFolderContains 1 folders, 1 notes.TextbookFolderContains 1 folders, 3 notes.Unit 1<a class="internal-link" href="physics/gravity-&amp;-electromagnetism.html" target="_self"></a>Forces in 2D are described by vectors, which are values that hav...24/04/2026, 21:08:19<a class="internal-link" href="physics/linear-motion.html" target="_self"></a>This page was last modified on $= dv.current().file.mtime.toForm...24/04/2026, 21:08:20Note<a class="internal-link" href="physics/physics-cheat-sheet.html" target="_self"></a>$$v =u+at$$24/04/2026, 21:08:20Note<a class="internal-link" href="physics/physics-resources.html" target="_self"></a>We’ve got plenty more practice questions for you to use to revis...24/04/2026, 21:08:20<a class="internal-link" href="physics/uncertainty-&amp;-error.html" target="_self"></a>Accuracy is the ability to obtain the correct measurement. Syste...24/04/2026, 21:08:17<a class="internal-link" href="physics/waves.html" target="_self"></a>This page was last modified on $= dv.current().file.mtime.toForm...24/04/2026, 21:08:20]]></description><link>physics/physics.html</link><guid isPermaLink="false">Physics/Physics.md</guid><pubDate>Fri, 24 Apr 2026 11:08:20 GMT</pubDate></item><item><title><![CDATA[Waves]]></title><description><![CDATA[This page was last modified on April 24, 2026 at 9:08 PM.A wave is an oscillating, propagating form of energy. There are two forms, mechanical and electromagnetic waves. They transfer energy from one point to another.
+Electromagnetic waves do not require a medium to travel through; they can travel through a vacuum.Here is a simple graph of a wave:-
+<img alt="supernote-mirror-Waves-2025-08-12-09-58-38.png" height="360" src="physics/drawings/supernote-mirror-waves-2025-08-12-09-58-38.png" target="_self" style="width: 574px; max-width: 100%;">
+Wavelength(): This is the distance from the start to the end of the wave. The wave repeats, so this is the distance for the wave to get to where it started; peak to peak, trough to trough. It can't be just to the same y value, it must have the same slope as well.
+Amplitude(): This is the distance from a peak or trough to the centerline. This determines how much energy the wave carries.
+Frequency(): This is the number of waves per second.
+Period(): This is how long it takes for a full cycle to occur.
+The relationship between frequency and wavelength is, as the frequency gets larger, the wavelength gets smaller
+where: is a constant, is the frequency(Hz) is the wavelength
+The phase velocity is given in terms of the wavelength and period as:
+The frequency is inversely related with the period such that:
+When wavefronts pass through a gap in a barrier, they spread, and this is called diffraction.<br>
+<img alt="supernote-mirror-Waves-2025-08-14-12-31-22.png" height="297" src="physics/drawings/supernote-mirror-waves-2025-08-14-12-31-22.png" target="_self" style="width: 497px; max-width: 100%;">This occurs because every single point on a wave produces a little wavelet. Each molecule in a wave in water bumps water molecules in front of it, doing its part to transfer the energy. Waves can 'occur' at different times, if you drop one pebble into the water and then drop another quickly after it, but not at the same time, the waves will go up and down at different times. When this occurs, they are out of phase. When two waves are going up and down at the same time, they are in phase.
+Waves are often described as being out of phase by or , and the reasoning is below:<br>
+<img alt="supernote-mirror-Waves-2025-08-14-13-10-02.png" height="585" src="physics/drawings/supernote-mirror-waves-2025-08-14-13-10-02.png" target="_self" style="width: 412px; max-width: 100%;">The way the wave propagates is called Huygen's Principle.<br>
+<img alt="supernote-mirror-Waves-2025-08-14-12-43-14.png" height="476" src="physics/drawings/supernote-mirror-waves-2025-08-14-12-43-14.png" target="_self" style="width: 551px; max-width: 100%;">This is why waves 'bend' as they pass through a gap in a barrier.<br>
+<img alt="supernote-mirror-Waves-2025-08-14-12-44-47.png" height="411" src="physics/drawings/supernote-mirror-waves-2025-08-14-12-44-47.png" target="_self" style="width: 468px; max-width: 100%;">Refraction occurs when a wave encounters a different medium, which has different characteristics. When it encounters a different medium at an angle(not head on) it bends and changes direction.<br>
+<img alt="supernote-mirror-Waves-2025-08-14-12-46-30.png" src="physics/drawings/supernote-mirror-waves-2025-08-14-12-46-30.png" target="_self">
+In this case air allows for faster waves than glass, and upon encountering the slower medium, the waves bend due to a speed change that occurs along each wave, causing it to turn; one side of the wave slows down first. Denser mediums allow waves to travel slower than less dense mediums, which allow waves to travel quicker. Depending on the difference in speed, the wave may bend more excessively, or less excessively to the normal of the medium.<br><img alt="supernote-mirror-Waves-2025-08-14-12-56-02.png" height="366" src="physics/drawings/supernote-mirror-waves-2025-08-14-12-56-02.png" target="_self" style="width: 436px; max-width: 100%;">An intuitive way to remember it is to imagine a little car driving along. When one tyre hits a slower or faster medium, which way will it turn?<br>
+<img alt="supernote-mirror-Waves-2025-08-14-12-57-22.png" height="530" src="physics/drawings/supernote-mirror-waves-2025-08-14-12-57-22.png" target="_self" style="width: 488px; max-width: 100%;">The refractive index reflects how light travels through the medium as opposed to in a vacuum, and is therefore a ratio.
+It is calculated by:-
+where: refractive index speed of light speed of light in medium
+Snell's law describes the relationship between the angle of incidence and the refraction. The Angle of Incidence in the angle that the wave approaches the boundary between the mediums to the normal of the boundary.<br>
+<img alt="supernote-mirror-Waves-2025-08-14-16-04-49.png" height="310" src="physics/drawings/supernote-mirror-waves-2025-08-14-16-04-49.png" target="_self" style="width: 378px; max-width: 100%;">Snell's Law states that:
+where: refractive index refractive index of medium 2 with regard to medium 1 phase velocity
+When two waves 180 out of phase(opposite) come across each other, they cancel each other out when they merge, forming a Node, but form again afterwards and continue. This is called Destructive Interference, as when the waves interfere, they 'destroy' each other.<br>
+<img alt="supernote-mirror-Waves-2025-08-28-16-45-29.png" height="330" src="methods/drawings/supernote-mirror-waves-2025-08-28-16-45-29.png" target="_self" style="width: 468px; max-width: 100%;">
+A full cancellation only occurs if the amplitudes are equal.<br>
+<img alt="supernote-mirror-Waves-2025-08-28-16-48-31.png" height="513" src="methods/drawings/supernote-mirror-waves-2025-08-28-16-48-31.png" target="_self" style="width: 467px; max-width: 100%;">If not, add the values(with one being negative), to find the total amplitude.When two waves in phase collide, they combine to have an amplitude that is the sum of both waves:<br>
+<img alt="supernote-mirror-Waves-2025-08-28-16-51-19.png" height="418" src="methods/drawings/supernote-mirror-waves-2025-08-28-16-51-19.png" target="_self" style="width: 465px; max-width: 100%;">
+The peak is called an Antinode; it is the inverse of a node.This is the concept of superposition in waves, that when waves collide they 'add up', and the resultant wave is the sum of both. If one is negative compared to the other, they cancel; if both are positive they combine.
+Afterwards, they resume their original shape and direction.This can be seen in two pulse waves, of different sizes:<br>
+<img alt="supernote-mirror-Waves-2025-08-28-16-54-19.png" height="423" src="physics/drawings/supernote-mirror-waves-2025-08-28-16-54-19.png" target="_self" style="width: 451px; max-width: 100%;">]]></description><link>physics/waves.html</link><guid isPermaLink="false">Physics/Waves.md</guid><pubDate>Fri, 24 Apr 2026 11:08:20 GMT</pubDate><enclosure url="physics/drawings/supernote-mirror-waves-2025-08-12-09-58-38.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;physics/drawings/supernote-mirror-waves-2025-08-12-09-58-38.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Nuclear Physics]]></title><description><![CDATA[This page was last modified on April 24, 2026 at 9:08 PM.There are two particles inside the nucleus, that being the positively charged protons, and neutral neutrons.
+A nucleon is a particle in the nucleus.This is called the Nuclide Notation:
+<img alt="supernote-mirror-Nuclear Physics-2025-04-28-09-42-47.png" height="242" src="physics/drawings/supernote-mirror-nuclear-physics-2025-04-28-09-42-47.png" target="_self" style="width: 211px; max-width: 100%;">
+The atomic number is called and the mass number is . The mass number is achieved by adding neutrons and protons.
+Therefore, the number of neutrons can be attained by:
+An isotope is an element that has a varied number of neutrons, be that more or less.
+As the mass of an element grows, it needs more and more neutrons to keep the atom stable.
+This is seen by the Segre Plot below:Why so many neutrons?
+Positive protons repel each other, so neutrons, which are neutral spread apart the protons so they don't repulse too strongly and blow apart the nucleus. Large nuclei have lots of protons so lots and lots of neutrons are needed to keep the atom stable. Neutrons are just there as stabilisers.When the atom becomes unstable and breaks apart, the emitted particles are known as radiation.Segre Plots show all stable elements in yellow with their isotopes:There are two forces inside the nucleus.This is a repulsive force that is formed by protons repelling each other due to like charges.
+This force is extremely strong.This is an attractive force that holds protons and neutrons together, and is the reason that atoms can stay together and exist.
+This force contains a lot of energy.In a nuclear fission bomb, this binding energy is released, and it is powerful enough to level cities. Yet it is only a tiny fraction of the SNF, less than 1%, and the core of the bomb only contains kilo's of uranium.This model describes the nucleus as a liquid, where the particles are constantly moving around, and the nucleus can 'wobble'.
+If it wobbles enough, it can split in two and release neutrons.
+A way of making it wobble enough to split is by hitting it with a high speed neutrons. Cherenkov radiation occurs when charged particles move through water at a speed that is faster than light can travel through water. It is like the light version of the sonic boom, and when this occurs, bluish light is emitted. This is possible as the speed of light in water is a lot slower than the speed of light in a vacuum. So what is being seen isn't actually the radiation itself, its the photons created by the sonic boom of the radiation. But if there's a blue glow, there's radiation... so step back!<br>
+<img alt="Cherenkov Radiation" src="physics/drawings/cherenkov-radiation.png" target="_self">Ionising radiation has the strength to knock out electrons from atoms, turning them into ions. This type of radiation can be very damaging. There are three types of ionising radiation to know.During nuclear decay the parent nucleus emits subatomic particles to produce a daughter nucleus, to gain stability.
+If the parent nucleus gains or loses a proton, a new element is created, and this is called transmutation.
+This occurs in Fission, where unstable nuclei break down.An alpha particle is a helium particle stripped of its electrons, travelling at a blistering speed. It is extremely large and is stopped by a piece of paper, however, it is the most damaging, as its large size and high speed give it a lot of momentum and ripping power.
+The symbol can be either or .
+Due to it missing all electrons, it as a charge.A beta particle is a high speed electron or positron. A positron is a positively charged electron, and basically the complete opposite of an electron.
+When a beta particle(positron) is released, a neutrino is released(written as ), which is a tiny, neutral and almost massless particle. One proton turns into one neutron
+When a beta particle(electron) is released, an antineutrino(written ) has almost the same properties as a neutrino, but is released with electrons. One neutron turns into one protonIf an electron and a positron collide, they annihilate each other and produce light.
+Beta Positive Decay Beta Negative Decay No change in nucleons occur. The unstable nucleus emits some energy as a gamma ray, making the nucleus "wobble" less.
+The parent nucleus with too much energy is written with an asterix to its right, like so: Identify the isotope of the daughter nucleus when plutonium-244 alpha decays. X=Uranium-240
+Caesium-137 decays via beta negative decay X=Barium-137
+Copper-64 decays via beta positive decay. X=Nickel-64Nuclear Decay can be modelled by the half-life.
+The half-life is the time taken for half of the radioactive nuclei to decay.
+The symbol is written like The equation is:
+where, is the number(or mass) of radioactive nuclei remaining is the initial number or mass of radioactive nuclei is the number of half-lives elapsed.
+The number of half-lives() is represented by:
+This formula needs to be memorised!A nucleus is fissile if it is just stable, so that when it is bombarded with a neutron, it becomes unstable.This is an example of a decay curve. Notice that it never approaches zero, the asymptote of the curve is at 0. It only gets closer and closer.<br>
+<img alt="supernote-mirror-Nuclear Physics-2025-05-15-12-25-33.png" height="321" src="physics/drawings/supernote-mirror-nuclear-physics-2025-05-15-12-25-33.png" target="_self" style="width: 442px; max-width: 100%;">
+The gradient gets less steep over time as less radioactive nuclei are remaining and therefore less decay occurring. E = energy(J)
+m = mass(kg)
+c = speed of light (8x10)Subatomic particles released during nuclear decay typically have energies of only Joules.
+This is described as an electron volt, 1eV.
+An electron volt is the energy of an electron in an electric potential of 1 volt. Both of these need to be memorisedWhere: Electrical Energy Potential() Charge Potential Difference
+Protons and neutrons, being super tiny, need their own unit of mass.
+This is called the unified atomic mass unit(), or the atomic mass unit(amu).
+It is equal to kg.
+It is defined as of the mass of carbon-12, as carbon-12 has 6 protons and 6 neutrons, even numbers of both.Using , it can be deduced that 1 of matter is equivalent to 931.6MeV of energy.
+This needs to be memorised!Because the nucleons inside the nucleus are held in place, they have negative potential energy. This makes the mass of a nucleus less than the mass of its individual parts.
+Potential energy is the same as binding energy. It is how much energy is needed to break apart the nucleus.
+The difference between the mass of a nucleus and its nucleons is called the mass defect. It's basically how stuck together they are.
+The mass of one proton is 1.007276.
+The mass of one neutron is 1.008665.The energy of the mass defect is equal to the binding energy. This needs to be memorised
+Calculating mass defect. This indicates how strongly a nucleus is held together and therefore its stability:
+Fusion occurs when two smaller nuclei are combined into a larger nuclei, which produced energy. Fusion releases significantly more energy, roughly 5 times more efficient.]]></description><link>physics/unit-1/nuclear-physics.html</link><guid isPermaLink="false">Physics/Unit 1/Nuclear Physics.md</guid><pubDate>Fri, 24 Apr 2026 11:08:19 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Electricity]]></title><description><![CDATA[This page was last modified on April 24, 2026 at 9:08 PM.Electric flow is generated by a charge difference. Electricity only flows if the circuit is complete.
+Since the electron is negatively charged it flows from the negative side of the batter to the positive side.
+Resistance is measured in Ohm's (), and is referred to as The charge of an electron has Coulombs, therefore if one Coulomb of charge has passed through a point, then
+The current, the amount of charge passing a point per second, is given as:
+where: = Current(Amperes) = Charge (Coulombs) = time (seconds)
+1 Amp = 1 Coulomb/second = electrons per second
+The electric force travels at the speed of light (). This means electrons themselves actually travel at the speed of light, so why doesn't electricity travel at the speed of light?
+However, as the individual electrons travel, they bounce off the atoms inside the wire. This means the electrons drift towards the high potential at . Because the electrons ricochet off the atoms in the metal, the metal imposes a resistance. It also absorbs this kinetic energy and heats up.
+<img alt="Electron Paths.excalidraw.svg" src="physics/drawings/electron-paths.excalidraw.svg" target="_self" style="width: 400px; max-width: 100%;">
+Potential Difference is the same thing as voltage. Because electrons repel each other, and this gives them potential energy. The potential difference of a battery is the energy that the electrons hold. When a current flows, the electrons are not used up but the energy they carry is used up by powering the circuit.
+Picture a bucket of water being held up in the air. A pipe wired to the bottom of it lets the water out through a circuit, which does something. How much the water wants to fall/ the force pushing it, is analogous to the potential difference, the force at which the electrons wish to flow through the circuit.<br>
+<img alt="Potential Difference.excalidraw.svg" src="physics/drawings/potential-difference.excalidraw.svg" target="_self" style="width: 400px; max-width: 100%;">
+The potential Difference (V) is the amount of electrical potential energy(W) given to each coulomb of charge(q). It is the electrical potential energy available per unit of charge, described as:
+In a circuit, the greater the voltage the greater the current flowing through it.
+The greater the resistance the smaller the currrent will flow.
+This is Ohm's law:
+Where:
+V = Potential difference(V)
+I = Current(A)
+R = Resistance Therefore, current increases with potential difference.
+Ohmic resistors produce a constant resistance, as they obey Ohm's Law.
+Non-Ohmic resistors(like light bulbs) heat up and increase the resistance as current increases. These do not obey ohms law, and hence they are called Non-Ohmic resistors.<br>
+<img alt="Ohmic vs. Non-Ohmic.excalidraw.svg" src="physics/drawings/ohmic-vs.-non-ohmic.excalidraw.svg" target="_self" style="width: 500px; max-width: 100%;">
+The Current is defined as the amount of charge, that passes through a point in a conducting wire per second. It has the unit amperes or amps (), which are equivalent to coulombs per second. The equation is:Where: the number of electrons that flow through a point the charge of an electron seconds
+As the current is the number of electrons actually flowing through a point, and voltage/potential difference is the strength of the force behind these electrons, there is a good analogy for these.
+Consider a water pipe.
+A wide water pipe will allow lots of water to flow through, so it has a high current. A narrow water pipe will allow less water to flow through, so it has a low current.
+A pressure washer has a lot more pressure behind the water flow, so it has a high potential difference, whereas a simple water hose has a lower potential difference.
+Current is the 'flow', and voltage is the 'pressure'.<br>An <a href=".?query=tag:Ammeter" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Ammeter">#Ammeter</a> is a device that measures the current, and needs to be placed in series. It needs to be placed in the circuit to have the electricity to flow through it.<br>
+A <a href=".?query=tag:Voltmeter" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Voltmeter">#Voltmeter</a> is a device that measures the potential difference, and can be placed in parallel to the circuit. It can just be placed alongside the circuit.<br>
+A <a href=".?query=tag:Multimeter" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Multimeter">#Multimeter</a> can measure both the current as well as the potential difference. Typically they can do more, being able to measure the resistance, AC vs DC and lots of other things.
+Series means components are connected back to back, in a chain. Hence "series".
+Parallel means components are connected side by side, parallel to each other. These use junctions, in which electrons have several paths they can take.<br>
+<img alt="Series vs. Parallel.excalidraw.svg" src="physics/drawings/series-vs.-parallel.excalidraw.svg" target="_self">
+The total resistances should add up such that the voltage equals to zero as it arrives back at the battery.
+The total resistance is equal to the resistances added up, if they are connected in series.
+Once the total resistance has been calculated, the current can be calculated using Ohm's law.
+As the current flows through both resistors, the current is the same for both resistors.
+However, as the voltage must be 0 as it reaches the battery, it decreases through each resistor.
+The voltage drop can be calculated for each resistor using Ohm's law.<br>
+<img alt="Resistors In Series.excalidraw.svg" src="physics/drawings/resistors-in-series.excalidraw.svg" target="_self">
+To find out how much current flows through a resistor, out of several, you must:
+Find out how much resistance is present in total
+Find out the fraction of resistance the resistor poses compared to the total
+If resistors are in parallel, it means the current could flow through two paths.<br>
+<img alt="Resistors In Parallel.excalidraw.svg" src="physics/drawings/resistors-in-parallel.excalidraw.svg" target="_self" style="width: 300px; max-width: 100%;"> To calculate the total resistance, this formula is used:
+Then, to calculate the current coming from the battery, use Ohm's Law.
+However, as the voltage must be 0 as it reaches the battery. Each path and therefore resistor must bring it down to 0 and therefore, the voltage is the same for both. Either way the electricity flows, it has to be reduced to 0 volts.
+Now, the current can be calculated either by breaking up the resistances and the current, or by using Ohm's Law.<br>
+<img alt="Resistors In Parallel WE.excalidraw.svg" src="physics/drawings/resistors-in-parallel-we.excalidraw.svg" target="_self"> The sum of potential differences around a closed circuit must be zero
+This means that the resistors use up all of the potential difference of the battery.
+The total current flowing into a junction equals the current flowing out
+]]></description><link>physics/unit-1/electricity.html</link><guid isPermaLink="false">Physics/Unit 1/Electricity.md</guid><pubDate>Fri, 24 Apr 2026 11:08:19 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Heat Processes]]></title><description><![CDATA[This page was last modified on April 24, 2026 at 9:08 PM.
+Energy is measured in Joules ()
+Power is measured in Watts ()
+<a href=".?query=tag:SI_Prefixes" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#SI_Prefixes">#SI_Prefixes</a>In James Joule's experiment, he discovered that temperature is directly related to the motion of particles in a liquid.<br>
+<a href=".?query=tag:Temperature" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Temperature">#Temperature</a> is the measure of the kinetic energy of the particles in a body of matter, which reveals itself as a vibration in the molecules. The faster and harder the vibration, the hotter the substance is.
+Einstein called kinetic energy "Energy in motion."
+However, temperature is actually the average kinetic energy(KE) of particles in a body, as the particles in said body form a population, and therefore there is a distribution of kinetic energies.
+Temperature is defined as<br>
+<img alt="Heat Distribution.excalidraw.svg" src="physics/drawings/heat-distribution.excalidraw.svg" target="_self">
+<br><a href=".?query=tag:Heat" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Heat">#Heat</a> is energy in the process of being transferred from one place to another due to temperature difference.Why does hot air rise?
+Hot air contains molecules that have more kinetic energy; hence they can overcome gravity more than cooler air. The kinetic energy causes the particles to collide more and spread out, leading to lower density.
+Celsius uses 0 as the freezing point of water and 100 as the boiling point of water.
+Kelvin uses 0 as absolute zero, which is -273.15oC Kelvin made a thermodynamic temperature scale which determines the amount of kinetic energy in any given material.
+However, absolute zero, does not mean that there is no motion within the particles of a substance. It marks the minimum motion of a substance's particles.
+This is because of the Heisenburg's Uncertainty Principle, which states that for any particle, it is impossible to know its momentum and it's exact position at the same time. If it was theoretically possible to chill a piece of lead to where the motion of its particles is zero, then both the particles position and momentum would be zero, but measuring this would be forbidden by Quantum Physics; it would be impossible.
+Below 30oK, some substances become superconductive, meaning there is no electrical resistance. Hydrogen loses all surface tension and begins to crawl everywhere.
+Space is heated by microwaves from the Big Bang, leaving it at 2.73oK.
+The coldest natural place is the Boomerang Nebula, spitting out gas which cools it to 1oK.
+The coldest place in the universe is in laboratories on earth.Conversion
+Kelvin temperature = Celsius temperature + <br> <a href=".?query=tag:Conduction" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Conduction">#Conduction</a> is the transfer of kinetic energy through collisions that occur due to contact between neighbouring atoms and molecules. It occurs between objects in direct contact.<br>
+<a href=".?query=tag:Convection" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Convection">#Convection</a> is a transfer of heat caused by movement within a fluid which causes hotter and less dense liquid to rise and cooler and denser liquid to sink down and this forms a loop.<br>
+<a href=".?query=tag:Radiation" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Radiation">#Radiation</a> is the thermal energy that is emitted in the form of electromagnetic rays(typically infrared) or photons.<br><a href=".?query=tag:Specific_Heat_Capacity" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Specific_Heat_Capacity">#Specific_Heat_Capacity</a> is the amount of energy that must be transferred to a material to change the temperature of 1 Kg of said material by 1oC. --&gt; Amount of energy () --&gt; Mass of substance () --&gt; Specific Heat Capacity ()<br><a href=".?query=tag:Latent_Heat_Energy" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Latent_Heat_Energy">#Latent_Heat_Energy</a> must be added to break the bonds between water molecules for ice to become liquid.
+Molecules have negative potential energy so they require energy to break the bonds.<br><img alt="Heat Curve of Water.excalidraw.svg" src="physics/drawings/heat-curve-of-water.excalidraw.svg" target="_self"> , where - The heat energy transferred/required (J) - mass (kg) - Latent Heat (J/Kg)<br><img alt="Q Heating &amp; Boiling.excalidraw.svg" src="physics/drawings/q-heating-&amp;-boiling.excalidraw.svg" target="_self" style="width: 500px; max-width: 100%;">
+There are several different forms of latent heat. There is the Latent Heat of Vaporisation, written as and it is used for boiling and condensing. There is also the Latent Heat of Fusion, written as and it is used for freezing and melting.When two bodies of different temperatures meet, they equalise temperatures such that:
+Qlost=Qgained
+A calorimeter is just a device that measures heat.]]></description><link>physics/unit-1/heat-processes.html</link><guid isPermaLink="false">Physics/Unit 1/Heat Processes.md</guid><pubDate>Fri, 24 Apr 2026 11:08:19 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Uncertainty & Error]]></title><description><![CDATA[Accuracy is the ability to obtain the correct measurement. Systematic errors cause low accuracy. If one is measuring the heat of the reaction but reading the thermometer from an angle, they would always get a slightly elevated temperature compared to the truth.
+Precision is the ability to consistently obtain a measurement. Random errors reduce the precision. If one ran an experiment over the course of a week in a room, and the temperature varied, then the results would not be consistent even if everything else was done perfectly.To determine the percent error that an experiment is off compared to the true results, this formula is used. <img alt="Pasted image 20250218160942.png" src="physics/drawings/pasted-image-20250218160942.png" target="_self">Uncertainty is a range of measurement from the experiment, within the true value is expected to lie.
+Errors are the differences between the true and the experimental values. This is not necessarily a problem with the experiment. True values are often impossible to attain.
+Error can never be eliminated, only minimised.Instruments are very powerful in the conclusions that are drawn. If one has a scale that says 10g, it is very different to a scale that reads 10.000g. The level of accuracy that the scale reads is key to conclusions drawn.
+The 10g scale could be weighing a mass at 9.8g or at 10.4g but will still read 10g. the error would be 0.5g. The scale that reads 10.000 could have a mass of 9.995g or 10.004g, and still read 10.000g, but in this case the variance is For a ruler, the gradient is every millimetre, so the error of the ruler is .
+So the uncertainty is always half of the graduation that it goes by.
+Absolute Uncertainty just represents the spread of the data from the average. <br><a href=".?query=tag:Significant_Figures" class="tag is-unresolved" target="_self" rel="noopener nofollow" data-href="#Significant_Figures">#Significant_Figures</a> have to do with the scale analogy. It represents the accuracy of the data. The precision that data is recorded determines the number of decimal places due to the scale of the instruments used.<br>
+<img alt="Pasted image 20250218172457.png" src="pasted-images/archive/pasted-image-20250218172457.png" target="_self">
+Note, for 1400, the reason it has 2 significant figures is because off the ambiguity in it. There is no decimal point to clarify, so 1400 could be rounded from 1350 and 1449, if the instrument only gave two significant figures worth and has a scale of 100. This is possible. The way to clarify if it is measured to a degree is by adding a decimal point() or in scientific notation( ).Significant figures are the number of digits in a sample not including leading zeros but including trailing zeros with a decimal point. The trailing zeros are important and must only be what was read off the instrument. If a thermometer read C then C would be misleading as well as C.
+Rules:
+All digits including 0 in the coefficient of a number written in scientific format are significant
+All non-zero digits are always significant(excluding calculation scenarios)(2.17 has 3 significant figures)
+All zeros between two non-zero digits are significant(3015 has 4 significant figures)
+A zero to the right of a decimal point and following a non-zero digit is significant(0.5700 has 4 significant figures)
+Any other zero is not significant as it will be used only for locating decimal places(i.e. 4200 and 0.005)
+If three volumes were calculated at , , and , it would be misleading to have an average of , as there were only 4 significant figures worth of precision.
+The extra 7 is considered a "non-significant figure".
+When making calculations, use the lowest number of significant figures present, as this is the most representative of the data. The least precise measurement limits the precision.
+For example, a highly accurate accelerometer with 6 significant figures paired with a timer with an output of 2 significant figures, the timer reduces the overall precision to 2 significant figures.When measuring with a device:
+For analogue devices, the uncertainty is equal to the smallest graduation.
+For digital devices, it is the smallest decimal point that it measures.
+For measuring cylinders, measure from the bottom of the meniscus The P-Value calculations works with the assumption that the null hypothesis is true. The null hypothesis states that whatever is under investigation has no effect. The P-Value determines how likely the null hypothesis is true, how likely the investigated variable does not actually influence the dependent variable.
+It involves two groups, one is the control and one is the test group. It cannot be used to compare averages or single values.
+It considers the size of the difference in the results, the sample size, and the variations in the data.
+It is a value between 0 and 1, and can be written as a percentage.
+A P-Value of 0.05 means there is a 5% chance that the null hypothesis is true in the investigation. A P-Value less than 0.05 is considered statistically significant.A fundamental law of statistics is that as the size of the sample increases, the sample average will get closer to the true population average. For the normal distribution to occur, the standard minimum number of sample points is .]]></description><link>physics/uncertainty-&amp;-error.html</link><guid isPermaLink="false">Physics/Uncertainty &amp; Error.md</guid><pubDate>Fri, 24 Apr 2026 11:08:17 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
